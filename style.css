@@ -4,13 +4,19 @@ body {
     background-image: url(images/BG.jpg);
     background-repeat: no-repeat;
     background-size: auto 1000px; 
+    background-attachment: fixed;
 }
 
 header {
     color: white;
     padding-top: 50px;
-    padding-bottom: 10px; 
+    padding-bottom: 50px; 
     font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    position: fixed; 
 }
 
 nav ul {
@@ -65,4 +71,19 @@ nav ul li a:hover {
     text-align: center;
     margin: 50px 200px;
     padding: 20px;
+}
+
+#aboutMe h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#aboutMe h4 {
+    font-size: 20px;
+}
+
+#aboutMe p { 
+    font-size: 16px;
+    font-weight: 300;
 }
